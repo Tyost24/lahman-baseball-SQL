@@ -130,13 +130,19 @@ And wswin = 'N'
 Order by w DESC
 
 
+-- B. What is the smallest number of wins for a team that did win the world series
+
+SELECT yearid, 
+teamid, 
+w, 
+wswin
+FROM teams
+WHERE yearid BETWEEN 1970 AND 2016
+	AND wswin = 'Y'
+ORDER BY w
 
 
-
-
-
-
-
+-- C. How often from 1970 – 2016 was it the case that a team with the most wins also won the world series? What percentage of the time?
 
 
 
