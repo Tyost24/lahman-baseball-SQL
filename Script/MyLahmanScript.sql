@@ -143,12 +143,7 @@ ORDER BY w
 
 
 -- C. How often from 1970 – 2016 was it the case that a team with the most wins also won the world series? What percentage of the time?
---working on C
-
-
-
-
-
+--working on C, needed more time
 
 
 
